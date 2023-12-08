@@ -1,9 +1,9 @@
 const extendHex = (shortHex) => {
   // write your code here
-	let i = shortHex.length - 3, isCapital = false;
-	let output = "#";
+	const  i = shortHex.length - 3, isCapital = false;
+	const  output = "#";
 	while(i < shortHex.length){
-		let ascii = shortHex[i].charCodeAt[0];
+		const ascii = shortHex[i].charCodeAt[0];
 		if(ascii >= 60 && ascii <= 90){
 			isCapital = true;
 		}
